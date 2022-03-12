@@ -1,5 +1,6 @@
 import java.util.Scanner;
-abstract class Calculator{
+abstract class Calculator
+{
 	abstract void addition();
 	abstract void table();
 	abstract void substraction();
@@ -60,8 +61,8 @@ public class calc extends Calculator
 	void table()
 	{System.out.println("Enter The Number ");
 	Scanner s=new Scanner(System.in);
-	 int num;
-		num=s.nextInt();
+	 float num;
+		num=s.nextFloat();
 		int i;
 		for (i =1;i<=10;++i)
 		{ System.out.println((num)+"*"+(i)+"="+(num*i)+"\n");}
